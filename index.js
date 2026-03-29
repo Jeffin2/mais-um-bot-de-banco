@@ -57,6 +57,7 @@ client.on("messageCreate", async (message) => {
     comando.run(message, args);
   } catch (error) {
     message.reply("Comando não encontrado.");
+    //update
   }
 
 });
